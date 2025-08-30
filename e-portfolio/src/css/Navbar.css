@@ -1,0 +1,136 @@
+nav {
+    display: flex;
+    margin: 0 auto;
+    width: 75%;
+    justify-content: space-between;
+}
+
+a {
+    padding-top: 1%;
+    text-decoration: none;
+    color: grey;
+    font-size: 2em;
+}
+
+a:hover, a:focus {
+    color : white;
+}
+
+.navbar {
+    height: 175px;
+}
+
+.links {
+    width: 15%;
+    position: relative;
+    justify-self: center;
+    align-content: space-evenly;
+    top: -35%;
+}
+
+.links button img {
+    width: 5em;
+    height: 5em;
+}
+
+/*
+    ====================
+      Navbar in middle
+    ====================
+ */
+
+.bottom-middle {
+    width: 100%;
+    height: 175px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 100%, 66% 60%, 33% 60%, 29% 100%, 0 100%);
+}
+
+.middle-middle {
+    height: 155px;
+    animation: middle-strobe 800ms ease-out infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 71% 100%, 67% 57%, 32% 57%, 28% 100%, 0 100%);
+}
+
+.top-middle {
+    height: 130px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 72% 100%, 68% 53%, 31% 53%, 27% 100%, 0 100%);
+}
+
+@keyframes middle-strobe {
+    0% {background: linear-gradient(to right, #DB5E5E 25%, #FF0000 50%, #DB5E5E 65%);}
+    20% {background: linear-gradient(to right, #DB5E5E 17%, #FF0000 50%, #DB5E5E 78%);}
+    40% {background: linear-gradient(to right, #DB5E5E 5%, #FF0000 50%, #DB5E5E 90%);}
+    60% {background: linear-gradient(to right, #DB5E5E 10%, #FF0000 50%, #DB5E5E 83%);}
+    80% {background: linear-gradient(to right, #DB5E5E 17%, #FF0000 50%, #DB5E5E 65%);}
+    100% {background: linear-gradient(to right, #DB5E5E 25%, #FF0000 50%, #DB5E5E 65%);}
+}
+
+/*
+    =======================
+      Navbar on left side
+    =======================
+ */
+
+.bottom-left {
+    width: 100%;
+    height: 175px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 33% 60%, 29% 100%, 0 100%);
+}
+
+.middle-left {
+    height: 155px;
+    animation: left-strobe 800ms ease-out infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 57%, 32% 57%, 28% 100%, 0 100%);
+}
+
+.top-left {
+    height: 130px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 31% 53%, 27% 100%, 0 100%);
+}
+
+@keyframes left-strobe {
+    0% {background: linear-gradient(to right, #FF0000 10%, #DB5E5E 70%)}
+    20% {background: linear-gradient(to right, #FF0000 11%, #DB5E5E 75%)}
+    40% {background: linear-gradient(to right, #FF0000 12%, #DB5E5E 85%)}
+    60% {background: linear-gradient(to right, #FF0000 15%, #DB5E5E 95%)}
+    80% {background: linear-gradient(to right, #FF0000 12%, #DB5E5E 85%)}
+    100% {background: linear-gradient(to right, #FF0000 11%, #DB5E5E 75%)}
+}
+
+/*
+    ========================
+      Navbar on right side
+    ========================
+ */
+
+.bottom-right {
+    width: 100%;
+    height: 175px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 100%, 66% 60%, 0 60%);
+}
+
+.middle-right {
+    height: 155px;
+    animation: right-strobe reverse 800ms ease-out infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 71% 100%, 67% 57%, 0 57%);
+}
+
+.top-right {
+    height: 130px;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 72% 100%, 68% 53%, 0 53%);
+}
+
+@keyframes right-strobe {
+    0% {background: linear-gradient(to left, #FF0000 10%, #DB5E5E 70%)}
+    20% {background: linear-gradient(to left, #FF0000 11%, #DB5E5E 75%)}
+    40% {background: linear-gradient(to left, #FF0000 12%, #DB5E5E 85%)}
+    60% {background: linear-gradient(to left, #FF0000 15%, #DB5E5E 95%)}
+    80% {background: linear-gradient(to left, #FF0000 12%, #DB5E5E 85%)}
+    100% {background: linear-gradient(to left, #FF0000 11%, #DB5E5E 75%)}
+}
