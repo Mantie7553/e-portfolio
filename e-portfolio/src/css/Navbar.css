@@ -1,3 +1,7 @@
+.navbar {
+    height: 175px;
+}
+
 nav {
     display: flex;
     margin: 0 auto;
@@ -5,32 +9,42 @@ nav {
     justify-content: space-between;
 }
 
-a {
+nav:first-of-type a {
     padding-top: 1%;
     text-decoration: none;
     color: grey;
     font-size: 2em;
 }
 
-a:hover, a:focus {
+nav:first-of-type a:hover, nav:first-of-type a:focus {
     color : white;
 }
 
-.navbar {
-    height: 175px;
-}
-
 .links {
-    width: 15%;
+    width: auto;
     position: relative;
     justify-self: center;
-    align-content: space-evenly;
+    justify-content: space-evenly;
     top: -35%;
 }
 
-.links button img {
-    width: 5em;
-    height: 5em;
+.image-max {
+    max-width: 2em;
+}
+
+.links a {
+    margin: 0 1.5em;
+    background: none;
+    border: none;
+}
+
+.links a:hover, .links a:focus {
+    box-shadow: black 0 2px;
+}
+
+.links a div img {
+    height: auto;
+    width: 100%;
 }
 
 /*

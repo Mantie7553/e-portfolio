@@ -1,10 +1,7 @@
 import "../css/Navbar.css";
-import LinkedInLogo from "../assets/linkedin-logo-black-white.webp"
+import LinkedInLogo from "../assets/linkedin-logo-black-white.png"
 import GithubLogo from "../assets/github-logo-black-white.png"
 import EmailLogo from "../assets/email-logo-black-white.png"
-
-//TODO Fix image backgrounds, resize images as the screen gets smaller, add spacing between images
-
 
 function Navbar() {
     return <div className="navbar">
@@ -19,18 +16,28 @@ function Navbar() {
                 </div>
             </div>
         </div>
-        <div className="links">
-            <button type="button">
-                <img src={LinkedInLogo} alt="linkedin"/>
-            </button>
-            <button type="button">
-                <img src={GithubLogo} alt="github"/>
-            </button>
-            <button type="button">
-                <img src={EmailLogo} alt="email"/>
-            </button>
-        </div>
+        <nav className="links">
+            <a href="/">
+                <div className="image-max">
+                    <img src={LinkedInLogo} alt="linkedin"/>
+                </div>
+            </a>
+            <a href="https://github.com/Mantie7553">
+                <div className="image-max">
+                    <img src={GithubLogo} alt="github"/>
+                </div>
+            </a>
+            <a href="/">
+                <div className="image-max">
+                    <img src={EmailLogo} alt="email"/>
+                </div>
+            </a>
+        </nav>
     </div>
+}
+
+function handleBtnClick() {
+
 }
 
 export default Navbar;
