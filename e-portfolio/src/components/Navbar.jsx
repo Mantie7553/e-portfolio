@@ -17,7 +17,7 @@ function Navbar() {
             </div>
         </div>
         <nav className="links">
-            <a href="/">
+            <a href="https://www.linkedin.com/in/jaden-mantie-456120358">
                 <div className="image-max">
                     <img src={LinkedInLogo} alt="linkedin"/>
                 </div>
@@ -27,17 +27,13 @@ function Navbar() {
                     <img src={GithubLogo} alt="github"/>
                 </div>
             </a>
-            <a href="/">
+            <a href="mailto:mantie7553@saskpolytech.ca?subject=About your portfolio">
                 <div className="image-max">
                     <img src={EmailLogo} alt="email"/>
                 </div>
             </a>
         </nav>
     </div>
-}
-
-function handleBtnClick() {
-
 }
 
 export default Navbar;
