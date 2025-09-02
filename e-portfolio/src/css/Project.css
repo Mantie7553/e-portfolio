@@ -1,0 +1,13 @@
+
+.prj-image {
+    margin: 0 auto;
+    display: flex;
+    float: left;
+    max-width: 200px;
+    border: black solid 3px;
+}
+
+.project {
+    width: 100%;
+    margin: 0 auto;
+}
