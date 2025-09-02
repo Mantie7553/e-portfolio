@@ -1,9 +1,9 @@
 
 section {
-    width: 30%;
-    padding: 30% 10%;
+    padding: 20% 5%;
     text-align: center;
     font-size: 1.25em;
+    max-width: 600px;
 }
 
 .text {
@@ -17,4 +17,27 @@ section {
 h3 {
     font-weight: bold;
     font-size:  1.5em;
+}
+
+.border {
+    width: 460px;
+    height: 460px;
+    animation: circle infinite 900ms linear;
+}
+
+.me {
+    position: relative;
+    top: 5px;
+ }
+
+@keyframes circle {
+    0% {background: linear-gradient(0deg, rgba(0,0,0,10%) 95%, rgba(255,0,0,80%) 100%)}
+    12.5% {background: linear-gradient(45deg, rgba(0,0,0,10%) 95%, rgb(255,0,0) 100%)}
+    25% {background: linear-gradient(90deg, rgba(0,0,0,10%) 95%, rgba(255,0,0,80%) 100%)}
+    36.5% {background: linear-gradient(135deg, rgba(0,0,0,10%) 95%, rgb(255,0,0) 100%)}
+    49% {background: linear-gradient(180deg, rgba(0,0,0,10%) 95%, rgba(255,0,0,80%) 100%)}
+    61.5% {background: linear-gradient(225deg, rgba(0,0,0,10%) 95%, rgb(255,0,0) 100%)}
+    74% {background: linear-gradient(270deg, rgba(0,0,0,10%) 95%, rgba(255,0,0,80%) 100%)}
+    86.5% {background: linear-gradient(315deg, rgba(0,0,0,10%) 95%, rgb(255,0,0) 100%)}
+    100% {background: linear-gradient(360deg, rgba(0,0,0,10%) 95%, rgba(255,0,0,80%) 100%)}
 }

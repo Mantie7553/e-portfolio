@@ -9,9 +9,9 @@ function Navbar() {
             <div className="middle-middle">
                 <div className="top-middle">
                     <nav>
-                        <a href="/">Resume</a>
-                        <a href="/">About Me</a>
-                        <a href="/">Projects</a>
+                        <a href="/" className="racing-sans-one-regular">Resume</a>
+                        <a href="/" className="racing-sans-one-regular">About Me</a>
+                        <a href="/" className="racing-sans-one-regular">Projects</a>
                     </nav>
                 </div>
             </div>
