@@ -9,9 +9,12 @@ function Navbar() {
             <div className="middle-middle">
                 <div className="top-middle">
                     <nav>
-                        <a href="/" className="racing-sans-one-regular">Resume</a>
-                        <a href="/" className="racing-sans-one-regular">About Me</a>
-                        <a href="/" className="racing-sans-one-regular">Projects</a>
+                        <a href="/" className="racing-sans-one-regular"
+                           onClick={() => {handlePage('resume')}} id="resume">Resume</a>
+                        <a href="/" className="racing-sans-one-regular"
+                           onClick={() => {handlePage('about')}} id="about">About Me</a>
+                        <a href="/" className="racing-sans-one-regular"
+                           onClick={() => {handlePage('projects')}} id="projects">Projects</a>
                     </nav>
                 </div>
             </div>
@@ -34,6 +37,17 @@ function Navbar() {
             </a>
         </nav>
     </div>
+}
+
+function handlePage(id) {
+    switch (id) {
+        case 'resume' : document.getElementById('resume').style.color = 'white';
+            break;
+        case 'about' : document.getElementById('about').style.color = 'white';
+            break;
+        case 'projects' : document.getElementById('projects').style.color = 'white';
+            break;
+    }
 }
 
 export default Navbar;

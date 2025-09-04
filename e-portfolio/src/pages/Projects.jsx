@@ -27,7 +27,7 @@ const projList = [
 ]
 
 function Projects() {
-    return <div className="base">
+    return <div className="base projects">
         {projList.map((prj, ind) => {
             return <Project project={prj} key={ind}/>
     })}
