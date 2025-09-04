@@ -1,13 +1,29 @@
 
 .prj-image {
-    margin: 0 auto;
-    display: flex;
-    float: left;
+    margin: 1%;
     max-width: 200px;
-    border: black solid 3px;
+    border: black solid 2px;
 }
 
 .project {
+    display: flex;
+    width: 80%;
+    margin: 5%;
+    background: rgba(0,0,0,5%);
+    border: rgba(0,0,0, 15%) 2px solid;
+    border-radius: 0.2em;
+}
+
+.project:nth-of-type(even) {
+    margin-left: 15%;
+}
+
+.prj-text {
+    padding: 0 1%;
     width: 100%;
-    margin: 0 auto;
+    text-align: left;
+}
+
+i {
+    font-size: 1.05em;
 }
