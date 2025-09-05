@@ -9,14 +9,15 @@ nav {
     justify-content: space-between;
 }
 
-nav:first-of-type a {
+.bttns {
+    background: none;
+    border: none;
     padding-top: 1%;
-    text-decoration: none;
     color: grey;
     font-size: 2em;
 }
 
-nav:first-of-type a:hover, nav:first-of-type a:focus {
+nav:first-of-type button:hover, nav:first-of-type button:focus {
     color : white;
 }
 
@@ -36,7 +37,7 @@ nav:first-of-type a:hover, nav:first-of-type a:focus {
     margin: 0 1.5em;
     background: none;
     border: none;
-
+    font-size: 2em;
 }
 
 .links a:hover {

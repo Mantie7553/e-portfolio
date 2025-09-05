@@ -3,7 +3,7 @@ import "../css/AboutMe.css";
 import Me from"../assets/jaden.png";
 
 function AboutMe() {
-    return <div className="base about">
+    return <div className="base about" id="base">
         <section className="my-image">
             <h3 className="racing-sans-one-regular">Jaden R. Mantie</h3>
             <div className="border">
