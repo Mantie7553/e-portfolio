@@ -13,3 +13,27 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
 }
+
+.btn-top {
+    border: 2px rgba(0,0,0,50%) solid;
+    border-radius: 100%;
+    background: none;
+    scale: 250%;
+}
+
+.to-top {
+    position: sticky;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.btn-top:hover {
+    border-color: rgba(0,0,0,80%);
+    color: white;
+}
+
+.small-text {
+    scale: 95%;
+    padding: 1%;
+}

@@ -31,6 +31,11 @@ function Projects() {
         {projList.map((prj, ind) => {
             return <Project project={prj} key={ind}/>
     })}
+        <div className="to-top">
+            <button className="btn-top" type='button'
+            onClick={() => {document.documentElement.scrollTop = 0}}>&#x2B06;</button>
+            <p className="roboto small-text">Back to top</p>
+        </div>
     </div>
 }
 

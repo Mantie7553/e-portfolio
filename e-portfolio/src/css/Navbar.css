@@ -19,7 +19,7 @@ nav {
 
 nav:first-of-type button:hover {
     animation: grow 200ms 1 ease-in forwards;
-    color: white;
+    color: #DB5E5E;
 }
 
 nav:first-of-type button:focus {
