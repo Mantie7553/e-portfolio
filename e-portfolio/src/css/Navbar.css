@@ -17,8 +17,14 @@ nav {
     font-size: 2em;
 }
 
-nav:first-of-type button:hover, nav:first-of-type button:focus {
-    color : white;
+nav:first-of-type button:hover {
+    animation: grow 200ms 1 ease-in forwards;
+    color: white;
+}
+
+nav:first-of-type button:focus {
+    scale: 115%;
+    color: #FF0000;
 }
 
 .links {
