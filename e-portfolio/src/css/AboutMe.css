@@ -1,17 +1,27 @@
+/*
+    FileName:   AboutMe.css
+    Author:     Jaden Mantie
+    Date:       2025/09/06
+
+    Used in:    AboutMe.jsx
+ */
 
 section {
-    padding: 10% 5% 0 5%;
     text-align: center;
     font-size: 1.25em;
     max-width: 600px;
 }
 
 .text {
-    margin-top: 5%;
+    margin-top: 15%;
+    padding-right: 10%;
+    width: 30%;
     float: right;
 }
 
 .my-image {
+    margin-top: 5%;
+    padding-left: 10%;
     float: left;
 }
 

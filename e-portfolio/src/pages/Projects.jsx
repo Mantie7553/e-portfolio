@@ -3,6 +3,7 @@ import Project from "../components/Project.jsx"
 import GameHub from "../assets/GameHub-project.png"
 import Construction from "../assets/construction.jpg"
 
+//An array of "project" objects that will be used to render each individual project that will be displayed on this page
 const projList = [
     {
     title: "Game Hub",
@@ -15,9 +16,9 @@ const projList = [
         description: "This project is currently under development. Will be added once there is a project to show."
     },
     {
-        title: "Unknown",
+        title: "Game Jam Project",
         img: Construction,
-        description: "Lots more coming. Come back later to see more..."
+        description: "This is an upcoming project. Will be added once the project has been completed."
     },
     {
         title: "Unknown",
@@ -26,6 +27,12 @@ const projList = [
     }
 ]
 
+/** Projects Component
+ * Returns a React component containing the content for the projects page
+ *      Renders the Project components in order of the above array
+ * @returns {JSX.Element} - The Projects component
+ * @constructor
+ */
 function Projects() {
     return <div className="base projects" id="base">
         {projList.map((prj, ind) => {

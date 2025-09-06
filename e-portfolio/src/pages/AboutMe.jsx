@@ -2,6 +2,11 @@
 import "../css/AboutMe.css";
 import Me from"../assets/jaden.png";
 
+/** AboutMe Component
+ *  Returns a React component containing the content for the about page
+ * @returns {JSX.Element} - The AboutMe component
+ * @constructor
+ */
 function AboutMe() {
     return <div className="base about" id="base">
         <section className="my-image">

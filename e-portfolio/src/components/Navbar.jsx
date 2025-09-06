@@ -3,6 +3,13 @@ import LinkedInLogo from "../assets/linkedin-logo-black-white.png"
 import GithubLogo from "../assets/github-logo-black-white.png"
 import EmailLogo from "../assets/email-logo-black-white.png"
 
+/** Navbar component
+ *  Returns a React component for the navbar used in the webpage
+ * @param page - The name of the page that is currently visible
+ * @param setPage - The function for changing the page that is displayed
+ * @returns {JSX.Element} - The Navbar component
+ * @constructor
+ */
 function Navbar({page, setPage}) {
     let navClass = page ==='resume' ? 'left' : page ==='projects' ? 'right' : 'middle';
     let bottom = `bottom-${navClass}`;
