@@ -16,10 +16,12 @@ function AboutMe() {
             </div>
         </section>
         <section className="text">
-            <h3 className="racing-sans-one-regular">About Me</h3>
-            <p className="roboto">Hello and welcome! I am a Computer Systems Technology student at Saskatchewan Polytechnic.
-            Through my time in school I have developed a love for all things tech, but specifically web development.
-             I also enjoy playing video games, watching basket ball, and bowling.</p>
+            <h3 className="racing-sans-one-regular">Hello, and Welcome!</h3>
+            <p className="roboto">
+                I am Jaden Mantie, a full time student at Saskatchewan Polytechnic and an aspiring web developer.<br/>
+                Through my time in college I have found a passion for development and actively challenge myself to learn more.<br/>
+
+            </p>
         </section>
     </div>
 }

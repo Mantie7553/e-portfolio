@@ -6,14 +6,11 @@ import Construction from "../assets/construction.jpg"
 //An array of "project" objects that will be used to render each individual project that will be displayed on this page
 const projList = [
     {
-    title: "Game Hub",
-    img: GameHub,
-    description: "A game hub for two educational games"
-    },
-    {
-        title: "Grant Management System",
-        img: Construction,
-        description: "This project is currently under development. Will be added once there is a project to show."
+        title: "Game Hub",
+        img: GameHub,
+        description: "A game hub for two educational games",
+        skill: "As my first full web project I gained a much better understand of JavaScript, HTML, and CSS",
+        reflection: ""
     },
     {
         title: "Game Jam Project",
@@ -21,10 +18,10 @@ const projList = [
         description: "This is an upcoming project. Will be added once the project has been completed."
     },
     {
-        title: "Unknown",
+        title: "Grant Management System",
         img: Construction,
-        description: "Lots more coming. Come back later to see more..."
-    }
+        description: "This project is currently under development. Will be added once there is a project to show."
+    },
 ]
 
 /** Projects Component

@@ -1,7 +1,7 @@
 import "../css/Navbar.css";
-import LinkedInLogo from "../assets/linkedin-logo-black-white.png"
-import GithubLogo from "../assets/github-logo-black-white.png"
-import EmailLogo from "../assets/email-logo-black-white.png"
+import LinkedInLogo from "../assets/link-images/linkedin-logo-black-white.png"
+import GithubLogo from "../assets/link-images/github-logo-black-white.png"
+import EmailLogo from "../assets/link-images/email-logo.png"
 
 /** Navbar component
  *  Returns a React component for the navbar used in the webpage
@@ -11,7 +11,7 @@ import EmailLogo from "../assets/email-logo-black-white.png"
  * @constructor
  */
 function Navbar({page, setPage}) {
-    let navClass = page ==='resume' ? 'left' : page ==='projects' ? 'right' : 'middle';
+    let navClass = page ==='skills' ? 'left' : page ==='projects' ? 'right' : 'middle';
     let bottom = `bottom-${navClass}`;
     let middle = `middle-${navClass}`;
     let top = `top-${navClass}`;
@@ -21,8 +21,8 @@ function Navbar({page, setPage}) {
             <div className={middle}>
                 <div className={top}>
                     <nav>
-                        <button id="resume" className="bttns racing-sans-one-regular"
-                                onClick={() => {setPage('resume')}}>Resume</button>
+                        <button id="skills" className="bttns racing-sans-one-regular"
+                                onClick={() => {setPage('skills')}}>Skills</button>
                         <button id="about" className="bttns racing-sans-one-regular"
                                 onClick={() => {setPage('about')}}>About Me</button>
                         <button id="projects" className="bttns racing-sans-one-regular"

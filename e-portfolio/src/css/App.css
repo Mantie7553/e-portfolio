@@ -6,7 +6,12 @@
     Used in:    App.jsx
  */
 
+html, #root {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     margin: 0;
     background: grey;
 }
@@ -30,6 +35,7 @@ body {
 }
 
 .to-top {
+    display: none;
     position: sticky;
     padding-left: 5%;
     padding-bottom: 2%;
@@ -44,6 +50,18 @@ body {
 .small-text {
     scale: 95%;
     padding: 1%;
+}
+
+.watermark {
+    color: rgba(0,0,0,90%);
+    position: relative;
+    bottom: -50px;
+    left: 0;
+    width: 25%;
+}
+
+.watermark-text {
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1200px)
