@@ -10,8 +10,8 @@ function App() {
     const [page, setPage] = useState('');
   return (
     <>
-        <Navbar page={page} setPage={setPage}/>         {/*<aboutMe/>*/}
-        {page === 'skills' ? <Skills/> : page === 'projects' ? <Projects/> : <Skills/>}
+        <Navbar page={page} setPage={setPage}/>
+        {page === 'skills' ? <Skills/> : page === 'projects' ? <Projects/> : <AboutMe/>}
         <Watermark/>
     </>
   )
