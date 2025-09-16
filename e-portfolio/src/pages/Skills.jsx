@@ -47,8 +47,8 @@ export default function Skills() {
             return <table>
                 <tbody>
                 <tr>
-                    <th>
-                        <h2>{naming[index]}</h2>
+                    <th colSpan={categories[index].length}>
+                        <h2 className="racing-sans-one-regular">{naming[index]}</h2>
                     </th>
                 </tr>
                 <SkillSection category={x}/>
@@ -70,11 +70,11 @@ export default function Skills() {
 function SkillSection({category})
 {
     return <tr className="skill-section">
-        {category.map((skill, index) => {
+        {category.map((skill) => {
             return (
                 <td>
                     <img src={skill.image} alt={skill.title} height="75px"/>
-                    <p>{skill.title}</p>
+                    <p className="roboto">{skill.title}</p>
                 </td>
             )
         })}
