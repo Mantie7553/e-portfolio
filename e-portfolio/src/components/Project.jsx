@@ -6,6 +6,7 @@ import "../css/Project.css";
  *      - project.img (the image path for a still image of the project)
  *      - project.title (the name of the project)
  *      - project.description (a short description of the project)
+ *      - project.reflection (more detail on what I learned during the project)
  * @returns {JSX.Element} - The Project component
  * @constructor
  */
@@ -16,6 +17,10 @@ function Project({project}) {
             <h3 className="racing-sans-one-regular prj-text"><i>Title:</i> {project.title}</h3>
             <p className="roboto prj-text"><i>Description:</i> {project.description}</p>
         </section>
+        <div className="hide">
+            <p className="roboto prj-text">{project.skill}</p>
+            <p className="roboto prj-text">{project.reflection}</p>
+        </div>
     </div>
 }
 

@@ -30,11 +30,6 @@ nav:first-of-type button:hover {
     color: #DB5E5E;
 }
 
-nav:first-of-type button:focus {
-    scale: 115%;
-    color: #FF0000;
-}
-
 .links {
     width: auto;
     position: relative;

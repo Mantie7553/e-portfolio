@@ -1,21 +1,66 @@
 /*
     FileName:   Skills.css
     Author:     Jaden Mantie
-    Date:       2025/09/11
+    Date:       2025/09/21
 
     Used in:    Skills.jsx
  */
 
 table {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 1em;
 }
 
 td {
     width: 125px;
+    padding-top: 15px;
     text-align: center;
-    background: rgba(0,0,0,10%);
-    border: 1px solid rgba(0,0,0,20%);
+    background: linear-gradient(to top right, rgb(50,50,50) 10%, rgb(200,200,200), rgb(50,50,50) 90%);
+    border: 1px solid rgb(150,150,150);
     border-radius: 10px;
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 10px black;
+}
+td:hover {
+    animation: shine 500ms 1 ease-out;
+}
+
+@keyframes shine {
+    0% {
+        background: linear-gradient(to top right, rgb(50,50,50) 10%, rgb(200,200,200), rgb(50,50,50) 90%);
+        box-shadow: 0 0 35px black;
+    }
+    11%{
+        background: linear-gradient(to top right, rgb(50,50,50) 25%, rgb(200,200,200), rgb(50,50,50) 95%);
+        box-shadow: 0 0 40px black;
+    }
+    22%{
+        background: linear-gradient(to top right, rgb(50,50,50) 40%, rgb(200,200,200), rgb(50,50,50) 100%);
+        box-shadow: 0 0 45px black;
+    }
+    33%{
+        background: linear-gradient(to top right, rgb(50,50,50) 60%, rgb(200,200,200));
+        box-shadow: 1px 1px 50px black;
+    }
+    44%{
+        background: linear-gradient(to top right, rgb(200,200,200),rgb(50,50,50) 10%,rgb(50,50,50) 90%, rgb(200,200,200));
+        box-shadow: 1px 1px 55px black;
+    }
+    55%{
+        background: linear-gradient(to top right, rgb(200,200,200),rgb(50,50,50) 25%);
+        box-shadow: 1px 1px 50px black;
+    }
+    66%{
+        background: linear-gradient(to top right, rgb(200,200,200),rgb(50,50,50) 40%);
+        box-shadow: 0 0 45px black;
+    }
+    77%{
+        background: linear-gradient(to top right, rgb(50,50,50) 5%, rgb(200,200,200),rgb(50,50,50) 60%);
+        box-shadow: 0 0 40px black;
+    }
+    88%{
+        background: linear-gradient(to top right, rgb(50,50,50) 10%, rgb(200,200,200),rgb(50,50,50) 90%);
+        box-shadow: 0 0 35px black;
+    }
 }

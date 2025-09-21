@@ -10,17 +10,20 @@ const projList = [
         img: GameHub,
         description: "A game hub for two educational games",
         skill: "As my first full web project I gained a much better understand of JavaScript, HTML, and CSS",
-        reflection: ""
+        reflection: "This project had taught me how working as part of a development team might look and how" +
+            "important communication is."
     },
     {
         title: "Game Jam Project",
         img: Construction,
-        description: "This is an upcoming project. Will be added once the project has been completed."
+        description: "This is an upcoming project. Will be added once the project has been completed.",
+        reflection: ""
     },
     {
         title: "Grant Management System",
         img: Construction,
-        description: "This project is currently under development. Will be added once there is a project to show."
+        description: "This project is currently under development. Will be added once there is a project to show.",
+        reflection: ""
     },
 ]
 
