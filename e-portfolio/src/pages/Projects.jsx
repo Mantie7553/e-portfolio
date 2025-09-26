@@ -11,7 +11,7 @@ const projList = [
         description: "A game hub for two educational games",
         skill: "As my first full web project I gained a much better understand of JavaScript, HTML, and CSS",
         reflection: "This project had taught me how working as part of a development team might look and how" +
-            "important communication is."
+            " important communication is."
     },
     {
         title: "Game Jam Project",

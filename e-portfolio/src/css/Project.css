@@ -8,7 +8,7 @@
 
 .prj-image {
     margin: 1%;
-    max-width: 200px;
+    max-width: 350px;
     border: black solid 2px;
 }
 
@@ -27,14 +27,19 @@
 
 .prj-text {
     padding: 0 1%;
-    width: 100%;
+    width: 90%;
     text-align: left;
+    align-content: center;
 }
 
 i {
     font-size: 1.05em;
 }
 
+.prj-details {
+    align-content: center;
+}
+
 .hide {
-    display: none;
+    color: rgba(0,0,0,0);
 }
