@@ -8,7 +8,7 @@ export default function Watermark() {
         <footer className="watermark">
             <p className="watermark-text roboto small-text">
                 Website built and designed by Jaden Mantie<br/>
-                Last Updated: September 11, 2025
+                Last Updated: October 24, 2025
             </p>
         </footer>
     )
