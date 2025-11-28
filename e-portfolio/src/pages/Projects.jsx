@@ -2,7 +2,7 @@
 import Project from "../components/Project.jsx"
 import GameHub from "../assets/GameHub-project.png"
 import Construction from "../assets/construction.jpg"
-import HCOB from "../assets/hcob.png"
+import HCOB from "../assets/HCOB-project.png"
 
 //An array of "project" objects that will be used to render each individual project that will be displayed on this page
 const projList = [
