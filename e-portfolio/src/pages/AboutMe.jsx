@@ -1,5 +1,5 @@
 
-import "../css/AboutMe.css";
+import "./AboutMe.css";
 import Me from"../assets/jaden.png";
 
 /** AboutMe Component

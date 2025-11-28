@@ -1,4 +1,4 @@
-import "../css/Project.css";
+import "./Project.css";
 
 /** Project Component
  *  Returns a React component for a project card that will be displayed in the projects page

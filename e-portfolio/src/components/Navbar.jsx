@@ -1,4 +1,4 @@
-import "../css/Navbar.css";
+import "./Navbar.css";
 import LinkedInLogo from "../assets/link-images/linkedin-logo-black-white.png"
 import GithubLogo from "../assets/link-images/github-logo-black-white.png"
 import EmailLogo from "../assets/link-images/email-logo.png"
