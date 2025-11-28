@@ -1,4 +1,4 @@
-import "./Skills.css";
+import "../css/Skills.css";
 import Java from "../assets/skill-images/java.jpg"
 import Python from "../assets/skill-images/python.jpg"
 import Js from "../assets/skill-images/js.jpg"
