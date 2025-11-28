@@ -20,7 +20,6 @@ function AboutMe() {
             <p className="roboto">
                 I am Jaden Mantie, a full time student at Saskatchewan Polytechnic and an aspiring web developer.<br/>
                 Through my time in college I have found a passion for development and actively challenge myself to learn more.<br/>
-
             </p>
         </section>
     </div>

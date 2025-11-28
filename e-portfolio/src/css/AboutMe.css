@@ -12,16 +12,18 @@ section {
     max-width: 600px;
 }
 
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
 .text {
     margin-top: 15%;
-    padding-right: 10%;
     width: 30%;
     float: right;
 }
 
 .my-image {
     margin-top: 5%;
-    padding-left: 10%;
     float: left;
 }
 
